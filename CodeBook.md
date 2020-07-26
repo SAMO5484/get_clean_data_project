@@ -29,9 +29,14 @@ The signals in the experiment are:
 - fBodyGyroMag
 - fBodyGyroJerkMag
 
+The first two variables are : 
+
+- activity: the type of the activity done while recording data. (There are 6 types of activity)
+- subject: the subject doing the activity. (There are 30 different subjects that participated in the experiment)
+
 And the variables estimated for each signal are:
 
 - mean(): Mean value
 - std(): Standard deviation
 
-I have reshaped the dataset, so it shows, in each row, the average of each signal-variable pair for each combination of type of activity and subject (see README for more information about type of activity and subject) 
+I have reshaped the dataset, so it shows the average of each signal-variable pair (columns) for each combination of type of activity and subject (rows). 
